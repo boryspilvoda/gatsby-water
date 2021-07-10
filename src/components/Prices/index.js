@@ -23,7 +23,7 @@ const Prices = () => {
 
   return (
     <>
-      <section id="prices" className="pt-20 pb-5 md:py-12 md:mt-20">
+      <section id="prices" className="pt-20 pb-5 md:py-12 md:pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-6 md:px-8 mb-10 lg:text-center">
             <div className="w-12 h-12 rounded-xl bg-gradient-to-br inline-flex items-center justify-center from-blue-200 to-blue-500 mb-8">
@@ -39,7 +39,7 @@ const Prices = () => {
             <h2 className="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
               {title}
             </h2>
-            <p className="text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 mb-6 text-gray-500">
+            <p className="text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 mb-6 text-gray-600">
               {description}
             </p>
           </div>

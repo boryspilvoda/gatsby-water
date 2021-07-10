@@ -13,7 +13,7 @@ const FAQ = () => {
               <dt className="text-lg font-medium leading-6 text-gray-900">
                 What is a domain?
               </dt>
-              <dd className="text-base leading-6 text-gray-500">
+              <dd className="text-base leading-6 text-gray-600">
                 A domain name is an identification string that defines a
                 website. We'll ping it every 5 minutes to make sure it's not
                 down, monitor expirationd daily and we take care of SSL
@@ -24,7 +24,7 @@ const FAQ = () => {
               <dt className="text-lg font-medium leading-6 text-gray-900">
                 Can I get a refund?
               </dt>
-              <dd className="text-base leading-6 text-gray-500">
+              <dd className="text-base leading-6 text-gray-600">
                 Yes. If you're unsatisfied with Momento, you can get a full
                 refund within 14 days of purchase. If you'd like to request a
                 refund, please contact customer support.
@@ -34,7 +34,7 @@ const FAQ = () => {
               <dt className="text-lg font-medium leading-6 text-gray-900">
                 Which payment methods can I use?
               </dt>
-              <dd className="text-base leading-6 text-gray-500">
+              <dd className="text-base leading-6 text-gray-600">
                 We use Stripe as our payment provider. You can pay with credit
                 or debit card.
               </dd>
@@ -43,7 +43,7 @@ const FAQ = () => {
               <dt className="text-lg font-medium leading-6 text-gray-900">
                 Do you offer a free trial?
               </dt>
-              <dd className="text-base leading-6 text-gray-500">
+              <dd className="text-base leading-6 text-gray-600">
                 Of course! You can signup for a free account and see whether
                 it's right for you. You can sign up for that above.
               </dd>
@@ -52,7 +52,7 @@ const FAQ = () => {
               <dt className="text-lg font-medium leading-6 text-gray-900">
                 How many registrar can I use?
               </dt>
-              <dd className="text-base leading-6 text-gray-500">
+              <dd className="text-base leading-6 text-gray-600">
                 You have no limits on registrars! You can add all registrars you
                 want. There are limits only on the number of domains based on
                 your subscription!
@@ -62,7 +62,7 @@ const FAQ = () => {
               <dt className="text-lg font-medium leading-6 text-gray-900">
                 Do you have any other question?
               </dt>
-              <dd className="text-base leading-6 text-gray-500">
+              <dd className="text-base leading-6 text-gray-600">
                 Feel free to contact us! Send an email support@getmomento.io.
                 We'll be glad to answer your questions!
               </dd>

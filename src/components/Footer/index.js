@@ -18,38 +18,38 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="text-sm text-center text-gray-500">
+        <p className="text-sm text-center text-gray-600">
           © 2021 Voda Drive. © 2021 All Rights Reserved
         </p>
         <div className="flex flex-wrap justify-center items-center space-x-6">
           <a
             href="#hero"
-            className="text-sm p-1  text-gray-500 hover:underline"
+            className="text-sm p-1  text-gray-600 hover:underline"
           >
             Головна
           </a>
           <a
             href="#features"
-            className="text-sm   p-1  text-gray-500 hover:underline"
+            className="text-sm   p-1  text-gray-600 hover:underline"
           >
             Особливості
           </a>
           <a
             href="#prices"
-            className="text-sm  p-1   text-gray-500 hover:underline"
+            className="text-sm  p-1   text-gray-600 hover:underline"
           >
             Ціни
           </a>{" "}
           <a
             href="#contact"
-            className="text-sm  p-1  text-gray-500 hover:underline"
+            className="text-sm  p-1  text-gray-600 hover:underline"
           >
             Контакти
-          </a>{" "}
+          </a>
           <a
-            href="https://twitter.com/TwComponents"
-            target="_blink"
-            className="text-gray-500  p-1 "
+            href="https://telegram.me/vodaDrive"
+            target="_blank"
+            className="text-gray-600  p-1 "
           >
             <svg viewBox="0 0 48 48" className="w-10 h-10">
               <path
@@ -69,11 +69,11 @@ const Footer = () => {
                 d="M29.897 18.196a.5.5 0 0 0-.701-.093L16 26l2.427 6.912c.322 1.021.58 1.045.58 1.045l.964-5.965 9.832-9.096a.5.5 0 0 0 .094-.7z"
               />
             </svg>
-          </a>{" "}
+          </a>
           <a
-            href="https://github.com/tailwindcomponents"
-            target="_blink"
-            className="text-gray-500  p-1 "
+            href="viber://chat?number=+380638609190"
+            target="_blank"
+            className="text-gray-600  p-1 "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

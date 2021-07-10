@@ -24,7 +24,7 @@ const MobileNav = () => {
               id="sidenav-close"
               title="Close Menu"
               aria-label="Close Menu"
-              className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
             >
               <svg
                 className="h-6 w-6"
@@ -71,6 +71,12 @@ const MobileNav = () => {
           className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
         >
           Замовити
+        </a>
+        <a
+          href="tel:0638609190"
+          className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100 mt-5"
+        >
+          0638609190
         </a>
       </div>
     </aside>

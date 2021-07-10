@@ -15,7 +15,7 @@ const query = graphql`
 `
 const Contact = () => {
   return (
-    <section id="contact" className="py-6 pt-20 mt-10 md:py-12 md:mt-20">
+    <section id="contact" className="py-6 pt-20 mt-10 md:py-12 md:pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="lg:text-center mb-10 md:mb-20">
           <div className="w-12 h-12 rounded-xl bg-gradient-to-br inline-flex items-center justify-center from-blue-200 to-blue-500 mb-8">
@@ -37,7 +37,7 @@ const Contact = () => {
           <h2 className="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
             Замовляйте корисну воду вже зараз!
           </h2>
-          <p className="mt-4 max-w-2xl text-l text-gray-500 lg:mx-auto">
+          <p className="mt-4 max-w-2xl text-l text-gray-600 lg:mx-auto">
             Заповніть форму та очікуйте на дзвінок. Наша команда з вами скоро
             зв'яжеться.
           </p>
@@ -50,13 +50,14 @@ const Contact = () => {
             frameBorder="0"
             marginHeight="0"
             marginWidth="0"
+            loading="lazy"
           >
             Завантаження…
           </iframe>
           <div>
             <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md">
               <h1 className="text-4xl font-bold">Контакти</h1>
-              <p className="text-gray-500">
+              <p className="text-gray-600">
                 Fill in the form to start a conversation
               </p>
               <div className="flex items-start align-middle mt-2">

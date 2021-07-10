@@ -19,7 +19,7 @@ const Nav = () => {
         <div className="-mr-2 flex items-center md:hidden">
           <a
             href="#sidenav-open"
-            className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+            className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
             id="sidenav-button"
             title="Open Menu"
             aria-label="Open Menu"
@@ -45,27 +45,27 @@ const Nav = () => {
       <div className="hidden md:block md:ml-10 md:pr-0 md:space-x-6 w-5/6">
         <a
           href="#about"
-          className="font-medium text-gray-500 hover:text-gray-900 whitespace-nowrap"
+          className="font-medium text-gray-600 hover:text-gray-900 whitespace-nowrap"
         >
           Про нас
         </a>
 
         <a
           href="#features"
-          className="font-medium text-gray-500 hover:text-gray-900"
+          className="font-medium text-gray-600 hover:text-gray-900"
         >
           Особливості
         </a>
 
         <a
           href="#prices"
-          className="font-medium text-gray-500 hover:text-gray-900"
+          className="font-medium text-gray-600 hover:text-gray-900"
         >
           Ціни
         </a>
         <a
           href="#contact"
-          className="font-medium text-gray-500 hover:text-gray-900"
+          className="font-medium text-gray-600 hover:text-gray-900"
         >
           Контакти
         </a>

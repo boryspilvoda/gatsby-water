@@ -16,7 +16,7 @@ html {
 }
 
 .freebirdFormviewerViewEmbedded .freebirdFormviewerViewCenteredContent{
-    margin: 0;
+    margin: 0!important;
 }
 
 .freebirdFormviewerViewCenteredContent{

@@ -8,6 +8,9 @@ module.exports = {
       "to-green-300",
       "from-purple-500",
       "to-purple-300",
+      "bg-green-900",
+      "bg-blue-900",
+      "bg-purple-900",
     ],
   },
   darkMode: false, // or 'media' or 'class'
