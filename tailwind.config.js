@@ -1,11 +1,21 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: {
+    content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+    safelist: [
+      "from-blue-500",
+      "to-blue-300",
+      "from-green-500",
+      "to-green-300",
+      "from-purple-500",
+      "to-purple-300",
+    ],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
     fontFamily: {
-      display: ["Roboto"],
-      body: ["Open Sans"],
+      display: ["Roboto", "sans-serif"],
+      body: ["Open Sans", "sans-serif"],
     },
   },
   variants: {
