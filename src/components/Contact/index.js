@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import Form from "../Form"
 const query = graphql`
   {
     contentfulHero {
@@ -38,25 +39,17 @@ const Contact = () => {
             Замовляйте корисну воду вже зараз!
           </h2>
           <p className="mt-4 max-w-2xl text-l text-gray-600 lg:mx-auto">
-            Заповніть форму та очікуйте на дзвінок. Наша команда з вами скоро
-            зв'яжеться.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+            autem consectetur distinctio doloremque hic labore, laborum magni
+            nihil rerum sunt. Alias amet aperiam dolores impedit maiores
+            obcaecati omnis quisquam veritatis.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfhC-vNMhlKqEzJvdZVf1IfDlRqxp4NMAIJm-rWdRmtT-uqEQ/viewform?embedded=true"
-            width="100%"
-            height="900"
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
-            loading="lazy"
-          >
-            Завантаження…
-          </iframe>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <Form />
           <div>
             <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md">
-              <h1 className="text-4xl font-bold">Контакти</h1>
+              <h3 className="text-4xl font-bold">Контакти</h3>
               <p className="text-gray-600">
                 Fill in the form to start a conversation
               </p>
