@@ -1,19 +1,7 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
 import Form from "../Form"
-const query = graphql`
-  {
-    contentfulHero {
-      Image {
-        gatsbyImageData(placeholder: TRACED_SVG)
-        title
-      }
-      title
-      description
-    }
-  }
-`
+
 const Contact = () => {
   return (
     <section id="contact" className="py-6 pt-20 mt-10 md:py-12 md:pt-24">
