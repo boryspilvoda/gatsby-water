@@ -53,6 +53,7 @@ const Contact = () => {
 
               <div className="flex items-start align-middle mt-2">
                 <a
+                  aria-label="Google maps location"
                   href="https://goo.gl/maps/UuTRKEAQWv1HfUPz6"
                   className="h-6 flex items-center sm:h-7 text-blue-400 "
                 >
@@ -83,6 +84,7 @@ const Contact = () => {
                 <a
                   href="tel:0638609190"
                   className="h-6 flex items-center sm:h-7 text-blue-400"
+                  aria-label="Call number"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +108,9 @@ const Contact = () => {
                 <a
                   href="https://telegram.me/vodaDrive"
                   target="_blank"
-                  className="text-gray-600  p-1 "
+                  aria-label="Telegram chat"
+                  className="text-gray-600  p-1"
+                  rel="noreferrer"
                 >
                   <svg viewBox="0 0 48 48" className="w-10 h-10">
                     <path
@@ -130,7 +134,9 @@ const Contact = () => {
                 <a
                   href="viber://chat?number=+380638609190"
                   target="_blank"
+                  aria-label="Viber chat"
                   className="text-gray-600  p-1 "
+                  rel="noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

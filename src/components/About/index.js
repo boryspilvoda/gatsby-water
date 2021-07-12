@@ -44,7 +44,7 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-10 items-start gap-10">
-            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-10">
+            <article className="space-y-10 md:space-y-0 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-10">
               {content.map((item, index) => (
                 <div key={index}>
                   <h3 className="text-3xl font-bold bg-clip-text bg-gradient-to-br text-transparent from-blue-600 to-blue-400">
@@ -55,7 +55,7 @@ const About = () => {
                   </p>
                 </div>
               ))}
-            </dl>
+            </article>
 
             <div className="max-w-xs mx-auto">
               <StaticImage

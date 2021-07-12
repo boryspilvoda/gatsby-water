@@ -6,6 +6,8 @@ const FAB = () => {
       <a
         href="https://telegram.me/vodaDrive"
         target="_blank"
+        rel="noreferrer"
+        aria-label="Telegram chat"
         className="fixed right-3 bottom-24 z-20"
       >
         <div className="relative">
@@ -33,7 +35,11 @@ const FAB = () => {
         </div>
       </a>
 
-      <a href="tel:0638609190" className="fixed right-3 bottom-5 z-20">
+      <a
+        href="tel:0638609190"
+        aria-label="Call number"
+        className="fixed right-3 bottom-5 z-20"
+      >
         <div className="relative">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
           <div className="flex items-center text-white justify-center rounded-full  p-2.5 bg-blue-600">

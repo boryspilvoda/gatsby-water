@@ -49,6 +49,8 @@ const Footer = () => {
           <a
             href="https://telegram.me/vodaDrive"
             target="_blank"
+            aria-label="Telegram chat"
+            rel="noreferrer"
             className="text-gray-600  p-1 "
           >
             <svg viewBox="0 0 48 48" className="w-10 h-10">
@@ -73,6 +75,8 @@ const Footer = () => {
           <a
             href="viber://chat?number=+380638609190"
             target="_blank"
+            aria-label="Viber chat"
+            rel="noreferrer"
             className="text-gray-600  p-1 "
           >
             <svg
