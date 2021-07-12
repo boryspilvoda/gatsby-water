@@ -53,9 +53,9 @@ const Prices = () => {
                         className={`w-full flex md:flex-col bg-gradient-to-br from-${item.color}-500 to-${item.color}-300`}
                       >
                         <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                          <h2 className="text-2xl font-semibold mb-2 text-shadow">
+                          <h3 className="text-2xl font-semibold mb-2 text-shadow">
                             {item.title}
-                          </h2>
+                          </h3>
                           <p className="font-medium text-2xl text-violet-100 text-shadow mb-4">
                             {item.price}
                           </p>

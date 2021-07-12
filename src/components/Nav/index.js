@@ -7,7 +7,7 @@ const Nav = () => {
       aria-label="Global"
     >
       <div className="flex items-center w-full justify-between">
-        <a className="w-28" href="/">
+        <a className="w-28" href="#hero">
           <StaticImage
             src="../../images/logo.png"
             quality={95}

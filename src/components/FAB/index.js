@@ -10,7 +10,7 @@ const FAB = () => {
       >
         <div className="relative">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-50 opacity-75" />
-          <div className="flex items-center text-white justify-center shadow-md rounded-full p-2 md:p-2.5 bg-white">
+          <div className="flex items-center text-white justify-center shadow-md rounded-full p-2.5 bg-white">
             <svg viewBox="0 0 48 48" className="h-6 w-6">
               <path
                 fill="#29b6f6"
@@ -36,7 +36,7 @@ const FAB = () => {
       <a href="tel:0638609190" className="fixed right-3 bottom-5 z-20">
         <div className="relative">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
-          <div className="flex items-center text-white justify-center rounded-full  p-1.5 md:p-2.5 bg-blue-600">
+          <div className="flex items-center text-white justify-center rounded-full  p-2.5 bg-blue-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

@@ -6,18 +6,18 @@ const MobileNav = () => {
   return (
     <aside
       id="sidenav-open"
-      className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden bg-white shadow-md"
+      className="absolute h-screen top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden bg-white shadow-md"
     >
       <div className="rounded-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
         <div className="px-5 pt-4 flex items-center justify-between">
-          <div className="h-8 w-24">
+          <a href="#hero" className="h-8 w-24">
             <StaticImage
               src="../../images/logo.png"
               quality={95}
               formats={["PNG", "AUTO", "WEBP"]}
               alt="Здорова Вода"
             />
-          </div>
+          </a>
           <div className="-mr-2">
             <a
               href="#"
@@ -68,13 +68,13 @@ const MobileNav = () => {
         </div>
         <a
           href="#contact"
-          className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
+          className="block w-full px-5 py-3 rounded-md text-center font-medium text-blue-700 bg-blue-100 hover:bg-blue-200"
         >
           Замовити
         </a>
         <a
           href="tel:0638609190"
-          className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100 mt-5"
+          className="block w-full px-5 py-3 rounded-md text-center font-medium text-white bg-blue-600 hover:bg-blue-700 mt-5"
         >
           0638609190
         </a>
