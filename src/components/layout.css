@@ -14,11 +14,3 @@ html {
   transform: translateX(0);
   transition: transform 0.3s, 0.3s;
 }
-
-.freebirdFormviewerViewEmbedded .freebirdFormviewerViewCenteredContent{
-    margin: 0!important;
-}
-
-.freebirdFormviewerViewCenteredContent{
-    width: 100%!important;
-}

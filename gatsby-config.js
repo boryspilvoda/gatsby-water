@@ -24,8 +24,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Здорова Вода 🚰 - Продаж та доставка води у місті Бориспіль`,
+    description: `🚰 Продаж та доставка очищеної мінеральної води додому чи в офіс | Замовлення очищеної мінералізованої води у місті Бориспіль онлайн | ☎️ (063)-860-91-90`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -46,8 +46,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#2c58b1`,
+        theme_color: `#2c58b1`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
