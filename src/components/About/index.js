@@ -5,11 +5,11 @@ import CTASection from "../CTASection"
 const query = graphql`
   {
     contentfulAbout {
-      primaryContent {
-        primaryContent
-      }
-      secondaryContent {
-        secondaryContent
+      content {
+        title
+        description {
+          description
+        }
       }
       title
       description
@@ -24,15 +24,8 @@ const query = graphql`
 const About = () => {
   const data = useStaticQuery(query)
 
-  const features = data.contentfulAbout
-  const {
-    title,
-    description,
-    subTitle,
-    primaryContent,
-    secondaryContent,
-    ref,
-  } = features
+  const about = data.contentfulAbout
+  const { title, description, subTitle, content, ref } = about
 
   return (
     <>
@@ -52,12 +45,16 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-10 items-start gap-10">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-10">
-              <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                {primaryContent.primaryContent}
-              </p>
-              <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                {secondaryContent.secondaryContent}
-              </p>
+              {content.map((item, index) => (
+                <div key={index}>
+                  <h3 className="text-3xl font-bold bg-clip-text bg-gradient-to-br text-transparent from-blue-600 to-blue-400">
+                    {item.title}
+                  </h3>
+                  <p className="mt-3 text-base text-gray-600 sm:mt-4 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
+                    {item.description.description}
+                  </p>
+                </div>
+              ))}
             </dl>
 
             <div className="max-w-xs mx-auto">
