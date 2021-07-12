@@ -13,9 +13,9 @@ const Form = () => {
 
   const url =
     "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdv6MvQ6K3IxTAtSLErzygoCgRLhCrjw0DGQBGimo49F_Frww/formResponse"
-  const form = document.getElementById("form")
 
   const clearForm = () => {
+    const form = document.getElementById("form")
     const inputs = form.getElementsByTagName("input")
     return [...inputs].map(item => (item.value = ""))
   }
