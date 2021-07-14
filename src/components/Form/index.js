@@ -1,7 +1,6 @@
 import React, { useState, Fragment } from "react"
 import { Transition } from "@headlessui/react"
 import { useForm } from "react-hook-form"
-import { trackCustomEvent } from "gatsby-plugin-google-analytics"
 
 const Form = () => {
   const [notify, showNotify] = useState(false)
@@ -34,10 +33,7 @@ const Form = () => {
         showNotify(true)
         clearForm()
         setTimeout(() => showNotify(false), 3000)
-        trackCustomEvent({
-          category: "Form Submit Button",
-          action: "Click",
-        })
+        typeof window !== "undefined" && window.gtag("event", "form-click", 'submit')
       })
       .catch(err => {
         console.error(err)
