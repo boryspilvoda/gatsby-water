@@ -24,7 +24,7 @@ const Contact = () => {
             </svg>
           </div>
           <h2 className="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Замовляйте корисну воду вже зараз!
+            Замовляйте доставку води вже зараз!
           </h2>
           <p className="mt-4 max-w-2xl text-l text-gray-600 lg:mx-auto">
             Ви можете зробити замовлення використовуючи онлайн форму, месенджер,
