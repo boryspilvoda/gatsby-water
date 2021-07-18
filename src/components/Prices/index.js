@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import CTASection from "../CTASection"
 
 const query = graphql`
   {
@@ -12,6 +13,10 @@ const query = graphql`
         price
         color
       }
+      ref {
+        title
+        description
+      }
     }
   }
 `
@@ -19,7 +24,7 @@ const Prices = () => {
   const data = useStaticQuery(query)
 
   const pricesList = data.contentfulPrices
-  const { title, description, prices } = pricesList
+  const { title, description, prices, ref } = pricesList
 
   return (
     <>
@@ -78,6 +83,7 @@ const Prices = () => {
           </div>
         </div>
       </section>
+      <CTASection {...ref} />
     </>
   )
 }
