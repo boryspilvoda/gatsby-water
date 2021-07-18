@@ -27,10 +27,12 @@ module.exports = {
     title: `Здорова Вода 🚰 - Продаж та доставка води у місті Бориспіль`,
     description: `🚰 Продаж та доставка очищеної мінеральної води додому чи в офіс | Замовлення очищеної мінералізованої води у місті Бориспіль онлайн | ☎️ (063)-860-91-90`,
     author: `@gatsbyjs`,
+    siteUrl: `https://www.voda-drive.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -72,7 +74,7 @@ module.exports = {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
           "G-FVP5EMG2SY", // Google Analytics / GA
-          ],
+        ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         // This object is used for configuration specific to this plugin
