@@ -66,7 +66,7 @@ const Contact = () => {
                     />
                   </svg>
                 </a>
-                <p className="ml-2 ">м.Бориспыіль, вул. Бежівка, 4</p>
+                <p className="ml-2 ">м.Бориспіль, вул. Бежівка, 4</p>
               </div>
               <div className="flex items-start align-middle mt-2">
                 <a
