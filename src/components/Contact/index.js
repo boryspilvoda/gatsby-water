@@ -162,7 +162,7 @@ const Contact = () => {
                       />
                     </svg>
                   </span>
-                  <span className="ml-2">Пн-Нд 8:00 - 22:00</span>
+                  <span className="ml-2">Пн-Нд 8:00 - 21:00</span>
                 </div>
               </div>
 
