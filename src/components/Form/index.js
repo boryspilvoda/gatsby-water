@@ -68,6 +68,7 @@ const Form = () => {
         method="POST"
         onSubmit={handleSubmit(_handleSubmit)}
         id="form"
+        style="display:none"
       >
         <div className="shadow-md overflow-hidden rounded-lg">
           <div className="px-4 py-5 bg-white sm:p-6">
