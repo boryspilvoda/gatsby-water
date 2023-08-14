@@ -4,7 +4,7 @@ import Form from "../Form"
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-6 pt-20 mt-10 md:py-12 md:pt-24">
+    <section style="display:none" id="contact" className="py-6 pt-20 mt-10 md:py-12 md:pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="lg:text-center mb-10 md:mb-20">
           <div className="w-12 h-12 rounded-xl bg-gradient-to-br inline-flex items-center justify-center from-blue-200 to-blue-500 mb-8">
